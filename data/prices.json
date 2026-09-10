@@ -1,78 +1,550 @@
- {
-  "updated_at": "2026-09-10T09:00:00Z",
-  "count": 8,
+{
+  "updated_at": "2026-09-10T15:25:22.421Z",
+  "count": 16,
   "data": [
     {
-      "sku": "cpu-9800x3d", "cat": "cpu", "name": "AMD Ryzen 7 9800X3D", "w": 120, "socket": "AM5",
+      "sku": "cpu-9800x3d",
+      "cat": "cpu",
+      "name": "Ryzen 7 9800X3D",
+      "img": null,
+      "w": 120,
+      "socket": "AM5",
+      "ram": null,
+      "psu": null,
       "prices": {
-        "jib": {"price": 16490, "url": "https://www.jib.co.th"},
-        "advice": {"price": 16290, "url": "https://www.advice.co.th"},
-        "banana": {"price": 16590, "url": "https://www.bnn.in.th"},
-        "ihavecpu": {"price": 15990, "url": "https://ihavecpu.com"}
-      }
+        "jib": {
+          "price": null,
+          "url": "https://www.jib.co.th/web/product/product_search/0?keyword=Ryzen%207%209800X3D",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "advice": {
+          "price": null,
+          "url": "https://www.advice.co.th/search?keyword=Ryzen%207%209800X3D",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "banana": {
+          "price": null,
+          "url": "https://www.bnn.in.th/th/search?q=Ryzen%207%209800X3D",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "ihavecpu": {
+          "price": null,
+          "url": "https://ihavecpu.com/product/search/Ryzen%207%209800X3D",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        }
+      },
+      "best": null,
+      "spread": 0
     },
     {
-      "sku": "mb-b850plus", "cat": "mb", "name": "ASUS TUF GAMING B850-PLUS WIFI", "w": 35, "socket": "AM5", "ram": "DDR5",
+      "sku": "cpu-9600x",
+      "cat": "cpu",
+      "name": "Ryzen 5 9600X",
+      "img": null,
+      "w": 88,
+      "socket": "AM5",
+      "ram": null,
+      "psu": null,
       "prices": {
-        "jib": {"price": 7490, "url": "https://www.jib.co.th"},
-        "advice": {"price": 7290, "url": "https://www.advice.co.th"},
-        "banana": {"price": 7590, "url": "https://www.bnn.in.th"},
-        "ihavecpu": {"price": 6990, "url": "https://ihavecpu.com"}
-      }
+        "jib": {
+          "price": null,
+          "url": "https://www.jib.co.th/web/product/product_search/0?keyword=Ryzen%205%209600X",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "advice": {
+          "price": null,
+          "url": "https://www.advice.co.th/search?keyword=Ryzen%205%209600X",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "banana": {
+          "price": null,
+          "url": "https://www.bnn.in.th/th/search?q=Ryzen%205%209600X",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "ihavecpu": {
+          "price": null,
+          "url": "https://ihavecpu.com/product/search/Ryzen%205%209600X",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        }
+      },
+      "best": null,
+      "spread": 0
     },
     {
-      "sku": "ram-tz5-32", "cat": "ram", "name": "G.SKILL Trident Z5 32GB (2x16) DDR5", "w": 12, "ram": "DDR5",
+      "sku": "cpu-14600kf",
+      "cat": "cpu",
+      "name": "i5-14600KF",
+      "img": null,
+      "w": 150,
+      "socket": "LGA1700",
+      "ram": null,
+      "psu": null,
       "prices": {
-        "jib": {"price": 4590, "url": "https://www.jib.co.th"},
-        "advice": {"price": 4490, "url": "https://www.advice.co.th"},
-        "banana": {"price": 4690, "url": "https://www.bnn.in.th"},
-        "ihavecpu": {"price": 4290, "url": "https://ihavecpu.com"}
-      }
+        "jib": {
+          "price": null,
+          "url": "https://www.jib.co.th/web/product/product_search/0?keyword=i5-14600KF",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "advice": {
+          "price": null,
+          "url": "https://www.advice.co.th/search?keyword=i5-14600KF",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "banana": {
+          "price": null,
+          "url": "https://www.bnn.in.th/th/search?q=i5-14600KF",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "ihavecpu": {
+          "price": null,
+          "url": "https://ihavecpu.com/product/search/i5-14600KF",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        }
+      },
+      "best": null,
+      "spread": 0
     },
     {
-      "sku": "vga-5070ti", "cat": "vga", "name": "GIGABYTE RTX 5070 Ti GAMING OC", "w": 300,
+      "sku": "mb-b850plus",
+      "cat": "mb",
+      "name": "TUF GAMING B850-PLUS",
+      "img": null,
+      "w": 35,
+      "socket": "AM5",
+      "ram": "DDR5",
+      "psu": null,
       "prices": {
-        "jib": {"price": 31900, "url": "https://www.jib.co.th"},
-        "advice": {"price": 31500, "url": "https://www.advice.co.th"},
-        "banana": {"price": 32900, "url": "https://www.bnn.in.th"},
-        "ihavecpu": {"price": 30900, "url": "https://ihavecpu.com"}
-      }
+        "jib": {
+          "price": null,
+          "url": "https://www.jib.co.th/web/product/product_search/0?keyword=TUF%20GAMING%20B850-PLUS",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "advice": {
+          "price": null,
+          "url": "https://www.advice.co.th/search?keyword=TUF%20GAMING%20B850-PLUS",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "banana": {
+          "price": null,
+          "url": "https://www.bnn.in.th/th/search?q=TUF%20GAMING%20B850-PLUS",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "ihavecpu": {
+          "price": null,
+          "url": "https://ihavecpu.com/product/search/TUF%20GAMING%20B850-PLUS",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        }
+      },
+      "best": null,
+      "spread": 0
     },
     {
-      "sku": "ssd-990pro2t", "cat": "ssd", "name": "Samsung 990 PRO 2TB NVMe Gen4", "w": 8,
+      "sku": "mb-b650ma",
+      "cat": "mb",
+      "name": "MSI PRO B650M-A",
+      "img": null,
+      "w": 30,
+      "socket": "AM5",
+      "ram": "DDR5",
+      "psu": null,
       "prices": {
-        "jib": {"price": 6490, "url": "https://www.jib.co.th"},
-        "advice": {"price": 6390, "url": "https://www.advice.co.th"},
-        "banana": {"price": 6690, "url": "https://www.bnn.in.th"},
-        "ihavecpu": {"price": 5990, "url": "https://ihavecpu.com"}
-      }
+        "jib": {
+          "price": null,
+          "url": "https://www.jib.co.th/web/product/product_search/0?keyword=MSI%20PRO%20B650M-A",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "advice": {
+          "price": null,
+          "url": "https://www.advice.co.th/search?keyword=MSI%20PRO%20B650M-A",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "banana": {
+          "price": null,
+          "url": "https://www.bnn.in.th/th/search?q=MSI%20PRO%20B650M-A",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "ihavecpu": {
+          "price": null,
+          "url": "https://ihavecpu.com/product/search/MSI%20PRO%20B650M-A",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        }
+      },
+      "best": null,
+      "spread": 0
     },
     {
-      "sku": "psu-rm850e", "cat": "psu", "name": "Corsair RM850e 850W 80+ Gold", "psu": 850,
+      "sku": "ram-tz5-32",
+      "cat": "ram",
+      "name": "Trident Z5 32GB DDR5 6000",
+      "img": null,
+      "w": 12,
+      "socket": null,
+      "ram": "DDR5",
+      "psu": null,
       "prices": {
-        "jib": {"price": 4290, "url": "https://www.jib.co.th"},
-        "advice": {"price": 4190, "url": "https://www.advice.co.th"},
-        "banana": {"price": 4390, "url": "https://www.bnn.in.th"},
-        "ihavecpu": {"price": 3990, "url": "https://ihavecpu.com"}
-      }
+        "jib": {
+          "price": null,
+          "url": "https://www.jib.co.th/web/product/product_search/0?keyword=Trident%20Z5%2032GB%20DDR5%206000",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "advice": {
+          "price": null,
+          "url": "https://www.advice.co.th/search?keyword=Trident%20Z5%2032GB%20DDR5%206000",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "banana": {
+          "price": null,
+          "url": "https://www.bnn.in.th/th/search?q=Trident%20Z5%2032GB%20DDR5%206000",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "ihavecpu": {
+          "price": null,
+          "url": "https://ihavecpu.com/product/search/Trident%20Z5%2032GB%20DDR5%206000",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        }
+      },
+      "best": null,
+      "spread": 0
     },
     {
-      "sku": "case-l216", "cat": "case", "name": "Lian Li Lancool 216", "w": 10,
+      "sku": "ram-fury-32",
+      "cat": "ram",
+      "name": "Kingston FURY Beast 32GB DDR5",
+      "img": null,
+      "w": 10,
+      "socket": null,
+      "ram": "DDR5",
+      "psu": null,
       "prices": {
-        "jib": {"price": 3290, "url": "https://www.jib.co.th"},
-        "advice": {"price": 3190, "url": "https://www.advice.co.th"},
-        "banana": {"price": 3390, "url": "https://www.bnn.in.th"},
-        "ihavecpu": {"price": 2990, "url": "https://ihavecpu.com"}
-      }
+        "jib": {
+          "price": null,
+          "url": "https://www.jib.co.th/web/product/product_search/0?keyword=Kingston%20FURY%20Beast%2032GB%20DDR5",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "advice": {
+          "price": null,
+          "url": "https://www.advice.co.th/search?keyword=Kingston%20FURY%20Beast%2032GB%20DDR5",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "banana": {
+          "price": null,
+          "url": "https://www.bnn.in.th/th/search?q=Kingston%20FURY%20Beast%2032GB%20DDR5",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "ihavecpu": {
+          "price": null,
+          "url": "https://ihavecpu.com/product/search/Kingston%20FURY%20Beast%2032GB%20DDR5",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        }
+      },
+      "best": null,
+      "spread": 0
     },
     {
-      "sku": "cool-ak620", "cat": "cooler", "name": "Deepcool AK620 Digital", "w": 6,
+      "sku": "vga-5070ti",
+      "cat": "vga",
+      "name": "RTX 5070 Ti 16GB",
+      "img": null,
+      "w": 300,
+      "socket": null,
+      "ram": null,
+      "psu": null,
       "prices": {
-        "jib": {"price": 2190, "url": "https://www.jib.co.th"},
-        "advice": {"price": 2090, "url": "https://www.advice.co.th"},
-        "banana": {"price": 2290, "url": "https://www.bnn.in.th"},
-        "ihavecpu": {"price": 1990, "url": "https://ihavecpu.com"}
-      }
+        "jib": {
+          "price": null,
+          "url": "https://www.jib.co.th/web/product/product_search/0?keyword=RTX%205070%20Ti%2016GB",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "advice": {
+          "price": null,
+          "url": "https://www.advice.co.th/search?keyword=RTX%205070%20Ti%2016GB",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "banana": {
+          "price": null,
+          "url": "https://www.bnn.in.th/th/search?q=RTX%205070%20Ti%2016GB",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "ihavecpu": {
+          "price": null,
+          "url": "https://ihavecpu.com/product/search/RTX%205070%20Ti%2016GB",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        }
+      },
+      "best": null,
+      "spread": 0
+    },
+    {
+      "sku": "vga-5070",
+      "cat": "vga",
+      "name": "RTX 5070 12GB",
+      "img": null,
+      "w": 250,
+      "socket": null,
+      "ram": null,
+      "psu": null,
+      "prices": {
+        "jib": {
+          "price": null,
+          "url": "https://www.jib.co.th/web/product/product_search/0?keyword=RTX%205070%2012GB",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "advice": {
+          "price": null,
+          "url": "https://www.advice.co.th/search?keyword=RTX%205070%2012GB",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "banana": {
+          "price": null,
+          "url": "https://www.bnn.in.th/th/search?q=RTX%205070%2012GB",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "ihavecpu": {
+          "price": null,
+          "url": "https://ihavecpu.com/product/search/RTX%205070%2012GB",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        }
+      },
+      "best": null,
+      "spread": 0
+    },
+    {
+      "sku": "ssd-990pro2t",
+      "cat": "ssd",
+      "name": "Samsung 990 PRO 2TB",
+      "img": null,
+      "w": 8,
+      "socket": null,
+      "ram": null,
+      "psu": null,
+      "prices": {
+        "jib": {
+          "price": null,
+          "url": "https://www.jib.co.th/web/product/product_search/0?keyword=Samsung%20990%20PRO%202TB",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "advice": {
+          "price": null,
+          "url": "https://www.advice.co.th/search?keyword=Samsung%20990%20PRO%202TB",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "banana": {
+          "price": null,
+          "url": "https://www.bnn.in.th/th/search?q=Samsung%20990%20PRO%202TB",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "ihavecpu": {
+          "price": null,
+          "url": "https://ihavecpu.com/product/search/Samsung%20990%20PRO%202TB",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        }
+      },
+      "best": null,
+      "spread": 0
+    },
+    {
+      "sku": "ssd-sn7100",
+      "cat": "ssd",
+      "name": "WD Black SN7100 1TB",
+      "img": null,
+      "w": 6,
+      "socket": null,
+      "ram": null,
+      "psu": null,
+      "prices": {
+        "jib": {
+          "price": null,
+          "url": "https://www.jib.co.th/web/product/product_search/0?keyword=WD%20Black%20SN7100%201TB",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "advice": {
+          "price": null,
+          "url": "https://www.advice.co.th/search?keyword=WD%20Black%20SN7100%201TB",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "banana": {
+          "price": null,
+          "url": "https://www.bnn.in.th/th/search?q=WD%20Black%20SN7100%201TB",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "ihavecpu": {
+          "price": null,
+          "url": "https://ihavecpu.com/product/search/WD%20Black%20SN7100%201TB",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        }
+      },
+      "best": null,
+      "spread": 0
+    },
+    {
+      "sku": "psu-rm850e",
+      "cat": "psu",
+      "name": "Corsair RM850e",
+      "img": null,
+      "w": 0,
+      "socket": null,
+      "ram": null,
+      "psu": 850,
+      "prices": {
+        "jib": {
+          "price": null,
+          "url": "https://www.jib.co.th/web/product/product_search/0?keyword=Corsair%20RM850e",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "advice": {
+          "price": null,
+          "url": "https://www.advice.co.th/search?keyword=Corsair%20RM850e",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "banana": {
+          "price": null,
+          "url": "https://www.bnn.in.th/th/search?q=Corsair%20RM850e",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "ihavecpu": {
+          "price": null,
+          "url": "https://ihavecpu.com/product/search/Corsair%20RM850e",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        }
+      },
+      "best": null,
+      "spread": 0
+    },
+    {
+      "sku": "psu-a750gl",
+      "cat": "psu",
+      "name": "MSI MAG A750GL",
+      "img": null,
+      "w": 0,
+      "socket": null,
+      "ram": null,
+      "psu": 750,
+      "prices": {
+        "jib": {
+          "price": null,
+          "url": "https://www.jib.co.th/web/product/product_search/0?keyword=MSI%20MAG%20A750GL",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "advice": {
+          "price": null,
+          "url": "https://www.advice.co.th/search?keyword=MSI%20MAG%20A750GL",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "banana": {
+          "price": null,
+          "url": "https://www.bnn.in.th/th/search?q=MSI%20MAG%20A750GL",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "ihavecpu": {
+          "price": null,
+          "url": "https://ihavecpu.com/product/search/MSI%20MAG%20A750GL",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        }
+      },
+      "best": null,
+      "spread": 0
+    },
+    {
+      "sku": "case-l216",
+      "cat": "case",
+      "name": "Lian Li Lancool 216",
+      "img": null,
+      "w": 10,
+      "socket": null,
+      "ram": null,
+      "psu": null,
+      "prices": {
+        "jib": {
+          "price": null,
+          "url": "https://www.jib.co.th/web/product/product_search/0?keyword=Lian%20Li%20Lancool%20216",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "advice": {
+          "price": null,
+          "url": "https://www.advice.co.th/search?keyword=Lian%20Li%20Lancool%20216",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "banana": {
+          "price": null,
+          "url": "https://www.bnn.in.th/th/search?q=Lian%20Li%20Lancool%20216",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "ihavecpu": {
+          "price": null,
+          "url": "https://ihavecpu.com/product/search/Lian%20Li%20Lancool%20216",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        }
+      },
+      "best": null,
+      "spread": 0
+    },
+    {
+      "sku": "cool-ak620",
+      "cat": "cooler",
+      "name": "Deepcool AK620",
+      "img": null,
+      "w": 6,
+      "socket": null,
+      "ram": null,
+      "psu": null,
+      "prices": {
+        "jib": {
+          "price": null,
+          "url": "https://www.jib.co.th/web/product/product_search/0?keyword=Deepcool%20AK620",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "advice": {
+          "price": null,
+          "url": "https://www.advice.co.th/search?keyword=Deepcool%20AK620",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "banana": {
+          "price": null,
+          "url": "https://www.bnn.in.th/th/search?q=Deepcool%20AK620",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "ihavecpu": {
+          "price": null,
+          "url": "https://ihavecpu.com/product/search/Deepcool%20AK620",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        }
+      },
+      "best": null,
+      "spread": 0
+    },
+    {
+      "sku": "mon-27gs75q",
+      "cat": "monitor",
+      "name": "LG 27GS75Q",
+      "img": null,
+      "w": 35,
+      "socket": null,
+      "ram": null,
+      "psu": null,
+      "prices": {
+        "jib": {
+          "price": null,
+          "url": "https://www.jib.co.th/web/product/product_search/0?keyword=LG%2027GS75Q",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "advice": {
+          "price": null,
+          "url": "https://www.advice.co.th/search?keyword=LG%2027GS75Q",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "banana": {
+          "price": null,
+          "url": "https://www.bnn.in.th/th/search?q=LG%2027GS75Q",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        },
+        "ihavecpu": {
+          "price": null,
+          "url": "https://ihavecpu.com/product/search/LG%2027GS75Q",
+          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+        }
+      },
+      "best": null,
+      "spread": 0
     }
   ]
 }

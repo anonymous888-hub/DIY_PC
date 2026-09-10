@@ -1,0 +1,160 @@
+<!DOCTYPE html><html lang="th"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PC Spec Builder — เทียบราคา 4 ร้าน</title><style>
+:root{--bg:#0f1216;--card:#171c23;--c2:#1e242d;--line:#2a323d;--txt:#e7ecf3;--dim:#8b97a8;--acc:#4ea8ff;--ok:#38d39f;--warn:#ffb020;--bad:#ff5d5d}
+*{box-sizing:border-box;margin:0;padding:0}body{background:var(--bg);color:var(--txt);font-family:"Segoe UI",Tahoma,sans-serif;line-height:1.5}
+.wrap{max-width:1280px;margin:0 auto;padding:16px}header{background:linear-gradient(135deg,#1b2735,#0f1216);border-bottom:1px solid var(--line);padding:18px 0}
+h1{font-size:22px}.sub{color:var(--dim);font-size:13px;margin-top:4px}
+.layout{display:grid;grid-template-columns:1fr 340px;gap:16px;margin-top:16px}@media(max-width:960px){.layout{grid-template-columns:1fr}}
+.slot{background:var(--card);border:1px solid var(--line);border-radius:12px;margin-bottom:10px;overflow:hidden}
+.sh{display:flex;align-items:center;gap:12px;padding:12px 14px;cursor:pointer}.sh:hover{background:var(--c2)}
+.ico{width:38px;height:38px;border-radius:9px;background:#222b36;display:grid;place-items:center;font-size:19px;flex:0 0 auto}
+.st{flex:1;min-width:0}.st b{font-size:14px}.st span{display:block;font-size:12px;color:var(--dim);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.btn{background:var(--acc);color:#06121f;border:0;border-radius:8px;padding:7px 13px;font-weight:700;cursor:pointer;font-size:13px}
+.btn.g{background:transparent;color:var(--dim);border:1px solid var(--line)}.btn:hover{filter:brightness(1.1)}
+.picked{display:flex;gap:12px;padding:0 14px 14px}.picked img{width:84px;height:64px;object-fit:contain;border-radius:8px;background:#fff}
+.pr{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.chip{font-size:11.5px;padding:4px 8px;border-radius:6px;background:#222b36;color:var(--dim);border:1px solid var(--line);text-decoration:none}
+.chip.best{background:rgba(56,211,159,.15);border-color:var(--ok);color:var(--ok);font-weight:700}.chip b{color:var(--txt)}.chip.best b{color:var(--ok)}
+aside{position:sticky;top:14px;align-self:start}.box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:12px}
+.box h3{font-size:14px;margin-bottom:10px;color:var(--acc)}
+.ln{display:flex;justify-content:space-between;font-size:13px;padding:5px 0;border-bottom:1px dashed var(--line)}.ln:last-child{border:0}
+.tot{font-size:20px;font-weight:800;color:var(--ok)}
+.al{font-size:12.5px;padding:8px 10px;border-radius:8px;margin-top:8px}
+.al.w{background:rgba(255,176,32,.12);color:var(--warn)}.al.e{background:rgba(255,93,93,.12);color:var(--bad)}.al.o{background:rgba(56,211,159,.12);color:var(--ok)}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.72);display:none;z-index:50;overflow:auto;padding:24px 12px}.modal.on{display:block}
+.sheet{max-width:1050px;margin:0 auto;background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:16px}
+.mh{display:flex;gap:10px;align-items:center;margin-bottom:12px}
+input.s{flex:1;background:var(--c2);border:1px solid var(--line);color:var(--txt);padding:9px 12px;border-radius:8px;font-size:14px}
+.item{display:grid;grid-template-columns:120px 1fr 470px;gap:14px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;margin-bottom:10px}
+@media(max-width:900px){.item{grid-template-columns:1fr}}
+.item img{width:100%;height:92px;object-fit:contain;background:#fff;border-radius:8px}
+.sp{font-size:12px;color:var(--dim);margin-top:4px}
+.sts{display:grid;grid-template-columns:repeat(4,1fr);gap:7px}
+.sc{background:var(--c2);border:1px solid var(--line);border-radius:9px;padding:8px;text-align:center}
+.sc.best{border-color:var(--ok);background:rgba(56,211,159,.1)}
+.sc .nm{font-size:10.5px;color:var(--dim);text-transform:uppercase}.sc .p{font-size:15px;font-weight:800;margin:3px 0}
+.sc.best .p{color:var(--ok)}.sc .x{font-size:10px;color:var(--dim)}.sc a{display:block;margin-top:5px;font-size:11px;color:var(--acc);text-decoration:none}
+.tag{display:inline-block;font-size:10px;background:var(--acc);color:#06121f;border-radius:4px;padding:1px 6px;font-weight:700;margin-left:6px}
+</style></head><body>
+<header><div class="wrap"><h1>🖥️ PC Spec Builder — เทียบราคา JIB · Advice · BaNANA · iHAVECPU</h1>
+<div class="sub" id="upd">กำลังโหลดข้อมูลราคา...</div></div></header>
+<div class="wrap"><div class="layout">
+<main id="slots"></main>
+<aside>
+<div class="box"><h3>💰 สรุปยอดรวมรายร้าน</h3><div id="tots"></div>
+<div class="ln" style="margin-top:8px"><b>ซื้อผสมร้าน (ถูกสุดทีละชิ้น)</b><span class="tot" id="mix">฿0</span></div><div id="note"></div></div>
+<div class="box"><h3>⚡ พลังงาน & ความเข้ากันได้</h3>
+<div class="ln"><span>ประมาณการใช้ไฟ</span><b id="watt">0 W</b></div>
+<div class="ln"><span>PSU แนะนำ</span><b id="psu">-</b></div><div id="compat"></div></div>
+<div class="box"><button class="btn" style="width:100%" onclick="copySum()">📋 คัดลอกสเปค</button>
+<button class="btn g" style="width:100%;margin-top:8px" onclick="resetAll()">🗑️ ล้างทั้งหมด</button></div>
+</aside></div></div>
+<div class="modal" id="modal"><div class="sheet"><div class="mh">
+<b id="mt" style="font-size:17px"></b><input class="s" id="ms" placeholder="ค้นหารุ่น...">
+<button class="btn g" onclick="closeM()">✕ ปิด</button></div><div id="ml"></div></div></div>
+
+<script>window.__STATIC__ = true;</script>
+<script>
+const STORES=[{k:'jib',n:'JIB'},{k:'advice',n:'Advice'},{k:'banana',n:'BaNANA'},{k:'ihavecpu',n:'iHAVECPU'}];
+const CATS=[{k:'cpu',n:'CPU (ซีพียู)',i:'🧠',r:1},{k:'mb',n:'Mainboard',i:'🔲',r:1},{k:'ram',n:'RAM',i:'📊',r:1},
+{k:'vga',n:'การ์ดจอ (VGA)',i:'🎮',r:0},{k:'ssd',n:'SSD / Storage',i:'💾',r:1},{k:'psu',n:'Power Supply',i:'🔌',r:1},
+{k:'case',n:'เคส',i:'🗄️',r:1},{k:'cooler',n:'CPU Cooler',i:'❄️',r:0},{k:'monitor',n:'จอมอนิเตอร์',i:'🖥️',r:0}];
+const DATA_URL = window.__STATIC__ ? './data/prices.json' : '/api/products';
+let DB={}, build=JSON.parse(localStorage.getItem('pcbuild')||'{}'), cur=null;
+const fmt=n=>'฿'+Number(n||0).toLocaleString('th-TH');
+const lo=p=>{const v=Object.values(p||{}).map(x=>x&&x.price).filter(x=>x>0);return v.length?Math.min(...v):0};
+const bs=p=>{let k=null,m=1/0;for(const s of STORES){const v=p&&p[s.k]&&p[s.k].price;if(v>0&&v<m){m=v;k=s.k}}return k};
+
+async function boot(){
+  try{
+    const j = await (await fetch(DATA_URL+'?t='+Date.now())).json();
+    CATS.forEach(c=>DB[c.k]=[]);
+    (j.data||[]).forEach(p=>{ (DB[p.cat]=DB[p.cat]||[]).push(p) });
+    document.getElementById('upd').textContent='อัปเดตราคาล่าสุด: '+
+      (j.updated_at?new Date(j.updated_at).toLocaleString('th-TH'):'—')+' · '+(j.count||0)+' รายการ';
+  }catch(e){
+    document.getElementById('upd').innerHTML='<span style="color:#ff5d5d">โหลดข้อมูลราคาไม่สำเร็จ — ยังไม่มีไฟล์ data/prices.json</span>';
+  }
+  render();
+}
+function render(){
+  document.getElementById('slots').innerHTML=CATS.map(function(c){
+    const it=build[c.k]; let b='';
+    if(it){
+      const k=bs(it.prices);
+      b='<div class="picked"><img src="'+(it.img||'https://placehold.co/120x90?text=No+Image')+'"><div style="flex:1;min-width:0">'+
+        '<div class="sp">'+(it.socket?'Socket '+it.socket+' · ':'')+(it.ram?it.ram+' · ':'')+(it.w?it.w+'W':'')+'</div><div class="pr">'+
+        STORES.map(function(s){ const v=it.prices[s.k];
+          return (!v||!v.price)
+            ? '<span class="chip">'+s.n+': <b>—</b></span>'
+            : '<a class="chip '+(s.k===k?'best':'')+'" target="_blank" href="'+v.url+'">'+s.n+': <b>'+fmt(v.price)+'</b></a>';
+        }).join('')+'</div></div></div>';
+    }
+    return '<div class="slot"><div class="sh" onclick="openM(\''+c.k+'\')"><div class="ico">'+c.i+'</div>'+
+      '<div class="st"><b>'+c.n+(c.r?' <span class="tag">จำเป็น</span>':'')+'</b><span>'+
+      (it?it.name:'ยังไม่ได้เลือก — คลิกเพื่อเทียบราคา')+'</span></div>'+
+      '<button class="btn">'+(it?'เปลี่ยน':'เลือก')+'</button></div>'+b+'</div>';
+  }).join('');
+  calc();
+}
+function openM(k){ cur=k; document.getElementById('mt').textContent=CATS.find(c=>c.k===k).n;
+  document.getElementById('ms').value=''; list(''); document.getElementById('modal').classList.add('on'); }
+function closeM(){ document.getElementById('modal').classList.remove('on'); }
+document.getElementById('ms').addEventListener('input',e=>list(e.target.value));
+function list(q){
+  const arr=(DB[cur]||[]).filter(x=>x.name.toLowerCase().includes(q.toLowerCase()));
+  document.getElementById('ml').innerHTML = arr.map(function(x){
+    const k=bs(x.prices), m=lo(x.prices);
+    return '<div class="item"><div><img src="'+(x.img||'https://placehold.co/300x200?text=No+Image')+'">'+
+      '<button class="btn" style="width:100%;margin-top:8px" onclick="pick(\''+x.sku+'\')">เลือก</button></div>'+
+      '<div><b style="font-size:14.5px">'+x.name+'</b><div class="sp">'+(x.socket||'')+' '+(x.ram||'')+' '+(x.w?x.w+'W':'')+'</div>'+
+      '<div class="sp" style="margin-top:6px;color:var(--ok)">ถูกสุด '+fmt(m)+(x.spread>0?' · ต่างกันสูงสุด '+fmt(x.spread):'')+'</div></div>'+
+      '<div class="sts">'+STORES.map(function(s){ const v=x.prices[s.k]||{};
+        return '<div class="sc '+(s.k===k?'best':'')+'"><div class="nm">'+s.n+'</div><div class="p">'+
+          (v.price?fmt(v.price):'—')+'</div><div class="x">'+(v.price?(s.k===k?'★ ถูกสุด':'มีสินค้า'):'ไม่พบราคา')+'</div>'+
+          '<a target="_blank" href="'+(v.url||'#')+'">เปิดหน้าร้าน ↗</a></div>';
+      }).join('')+'</div></div>';
+  }).join('') || '<p style="color:var(--dim);text-align:center;padding:30px">ไม่พบสินค้าในหมวดนี้</p>';
+}
+function pick(sku){ build[cur]=DB[cur].find(x=>x.sku===sku); save(); closeM(); }
+function calc(){
+  const it=Object.values(build);
+  document.getElementById('tots').innerHTML=STORES.map(function(s){
+    let sum=0,miss=0;
+    it.forEach(function(x){ const v=x.prices[s.k]&&x.prices[s.k].price; v?sum+=v:miss++; });
+    return '<div class="ln"><span>'+s.n+(miss?' <span style="color:var(--warn)">(ขาด '+miss+')</span>':'')+'</span><b>'+fmt(sum)+'</b></div>';
+  }).join('');
+  const mix=it.reduce((a,x)=>a+lo(x.prices),0); document.getElementById('mix').textContent=fmt(mix);
+  const tl=STORES.map(s=>it.reduce((a,x)=>a+((x.prices[s.k]&&x.prices[s.k].price)||0),0)).filter(v=>v>0);
+  const cheap=tl.length?Math.min(...tl):0;
+  document.getElementById('note').innerHTML=(mix&&cheap>mix)
+    ? '<div class="al o">💡 ซื้อผสมร้านประหยัดกว่า '+fmt(cheap-mix)+' (ยังไม่รวมค่าส่ง)</div>' : '';
+  const w=it.reduce((a,x)=>a+(x.w||0),0), rec=Math.ceil(w*1.4/50)*50;
+  document.getElementById('watt').textContent=w+' W';
+  document.getElementById('psu').textContent=w?rec+'W ขึ้นไป':'-';
+  const msg=[];
+  if(build.cpu&&build.mb&&build.cpu.socket&&build.mb.socket&&build.cpu.socket!==build.mb.socket)
+    msg.push('<div class="al e">❌ CPU ('+build.cpu.socket+') ไม่ตรงกับเมนบอร์ด ('+build.mb.socket+')</div>');
+  if(build.mb&&build.ram&&build.mb.ram&&build.ram.ram&&build.mb.ram!==build.ram.ram)
+    msg.push('<div class="al e">❌ RAM '+build.ram.ram+' ไม่ตรงกับเมนบอร์ด '+build.mb.ram+'</div>');
+  if(build.psu&&build.psu.psu&&w&&build.psu.psu<rec)
+    msg.push('<div class="al w">⚠️ PSU '+build.psu.psu+'W อาจไม่พอ — แนะนำ '+rec+'W</div>');
+  const ms=CATS.filter(c=>c.r&&!build[c.k]).map(c=>c.n);
+  if(ms.length) msg.push('<div class="al w">⚠️ ยังขาด: '+ms.join(', ')+'</div>');
+  if(!msg.length&&it.length) msg.push('<div class="al o">✅ สเปคเข้ากันได้ทั้งหมด</div>');
+  document.getElementById('compat').innerHTML=msg.join('');
+}
+function copySum(){
+  let t='=== สเปคคอมของฉัน ===\n';
+  CATS.forEach(function(c){ const x=build[c.k];
+    if(x){ const k=bs(x.prices);
+      t+=c.n+': '+x.name+' — '+fmt(lo(x.prices))+' ('+((STORES.find(s=>s.k===k)||{}).n||'-')+')\n'; }});
+  t+='\nรวมแบบผสมร้าน: '+document.getElementById('mix').textContent;
+  navigator.clipboard.writeText(t).then(()=>alert('คัดลอกแล้ว!'));
+}
+function resetAll(){ if(confirm('ล้างสเปคทั้งหมด?')){ build={}; save(); } }
+function save(){ localStorage.setItem('pcbuild',JSON.stringify(build)); render(); }
+document.getElementById('modal').addEventListener('click',e=>{ if(e.target.id==='modal') closeM(); });
+boot();
+</script></body></html>

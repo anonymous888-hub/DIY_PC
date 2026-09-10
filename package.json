@@ -1,0 +1,18 @@
+{
+  "name": "pc-price-compare",
+  "version": "1.0.0",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node index.js",
+    "scrape": "node index.js --scrape",
+    "postinstall": "playwright install --with-deps chromium || true"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "node-cron": "^3.0.3"
+  },
+  "optionalDependencies": { "playwright": "^1.47.0" }
+}

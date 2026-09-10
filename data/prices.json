@@ -1,0 +1,78 @@
+ {
+  "updated_at": "2026-09-10T09:00:00Z",
+  "count": 8,
+  "data": [
+    {
+      "sku": "cpu-9800x3d", "cat": "cpu", "name": "AMD Ryzen 7 9800X3D", "w": 120, "socket": "AM5",
+      "prices": {
+        "jib": {"price": 16490, "url": "https://www.jib.co.th"},
+        "advice": {"price": 16290, "url": "https://www.advice.co.th"},
+        "banana": {"price": 16590, "url": "https://www.bnn.in.th"},
+        "ihavecpu": {"price": 15990, "url": "https://ihavecpu.com"}
+      }
+    },
+    {
+      "sku": "mb-b850plus", "cat": "mb", "name": "ASUS TUF GAMING B850-PLUS WIFI", "w": 35, "socket": "AM5", "ram": "DDR5",
+      "prices": {
+        "jib": {"price": 7490, "url": "https://www.jib.co.th"},
+        "advice": {"price": 7290, "url": "https://www.advice.co.th"},
+        "banana": {"price": 7590, "url": "https://www.bnn.in.th"},
+        "ihavecpu": {"price": 6990, "url": "https://ihavecpu.com"}
+      }
+    },
+    {
+      "sku": "ram-tz5-32", "cat": "ram", "name": "G.SKILL Trident Z5 32GB (2x16) DDR5", "w": 12, "ram": "DDR5",
+      "prices": {
+        "jib": {"price": 4590, "url": "https://www.jib.co.th"},
+        "advice": {"price": 4490, "url": "https://www.advice.co.th"},
+        "banana": {"price": 4690, "url": "https://www.bnn.in.th"},
+        "ihavecpu": {"price": 4290, "url": "https://ihavecpu.com"}
+      }
+    },
+    {
+      "sku": "vga-5070ti", "cat": "vga", "name": "GIGABYTE RTX 5070 Ti GAMING OC", "w": 300,
+      "prices": {
+        "jib": {"price": 31900, "url": "https://www.jib.co.th"},
+        "advice": {"price": 31500, "url": "https://www.advice.co.th"},
+        "banana": {"price": 32900, "url": "https://www.bnn.in.th"},
+        "ihavecpu": {"price": 30900, "url": "https://ihavecpu.com"}
+      }
+    },
+    {
+      "sku": "ssd-990pro2t", "cat": "ssd", "name": "Samsung 990 PRO 2TB NVMe Gen4", "w": 8,
+      "prices": {
+        "jib": {"price": 6490, "url": "https://www.jib.co.th"},
+        "advice": {"price": 6390, "url": "https://www.advice.co.th"},
+        "banana": {"price": 6690, "url": "https://www.bnn.in.th"},
+        "ihavecpu": {"price": 5990, "url": "https://ihavecpu.com"}
+      }
+    },
+    {
+      "sku": "psu-rm850e", "cat": "psu", "name": "Corsair RM850e 850W 80+ Gold", "psu": 850,
+      "prices": {
+        "jib": {"price": 4290, "url": "https://www.jib.co.th"},
+        "advice": {"price": 4190, "url": "https://www.advice.co.th"},
+        "banana": {"price": 4390, "url": "https://www.bnn.in.th"},
+        "ihavecpu": {"price": 3990, "url": "https://ihavecpu.com"}
+      }
+    },
+    {
+      "sku": "case-l216", "cat": "case", "name": "Lian Li Lancool 216", "w": 10,
+      "prices": {
+        "jib": {"price": 3290, "url": "https://www.jib.co.th"},
+        "advice": {"price": 3190, "url": "https://www.advice.co.th"},
+        "banana": {"price": 3390, "url": "https://www.bnn.in.th"},
+        "ihavecpu": {"price": 2990, "url": "https://ihavecpu.com"}
+      }
+    },
+    {
+      "sku": "cool-ak620", "cat": "cooler", "name": "Deepcool AK620 Digital", "w": 6,
+      "prices": {
+        "jib": {"price": 2190, "url": "https://www.jib.co.th"},
+        "advice": {"price": 2090, "url": "https://www.advice.co.th"},
+        "banana": {"price": 2290, "url": "https://www.bnn.in.th"},
+        "ihavecpu": {"price": 1990, "url": "https://ihavecpu.com"}
+      }
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T19:05:11.815Z",
+  "updated_at": "2026-11-06T03:46:10.091Z",
   "count": 16,
   "data": [
     {
@@ -355,7 +355,7 @@
         "jib": {
           "price": null,
           "url": "https://www.jib.co.th/web/product/product_search/0?keyword=WD%20Black%20SN7100%201TB",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "The operation was aborted due to timeout"
         },
         "advice": {
           "price": null,

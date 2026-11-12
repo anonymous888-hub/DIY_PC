@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T04:08:57.561Z",
+  "updated_at": "2026-11-12T19:12:19.819Z",
   "count": 16,
   "data": [
     {
@@ -15,7 +15,7 @@
         "jib": {
           "price": null,
           "url": "https://www.jib.co.th/web/product/product_search/0?keyword=Ryzen%207%209800X3D",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "The operation was aborted due to timeout"
         },
         "advice": {
           "price": null,

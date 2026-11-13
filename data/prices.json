@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T03:46:35.662Z",
+  "updated_at": "2026-11-13T18:49:55.556Z",
   "count": 16,
   "data": [
     {
@@ -15,7 +15,7 @@
         "jib": {
           "price": null,
           "url": "https://www.jib.co.th/web/product/product_search/0?keyword=Ryzen%207%209800X3D",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "HTTP 403"
         },
         "advice": {
           "price": null,
@@ -49,7 +49,7 @@
         "jib": {
           "price": null,
           "url": "https://www.jib.co.th/web/product/product_search/0?keyword=Ryzen%205%209600X",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "HTTP 403"
         },
         "advice": {
           "price": null,
@@ -83,7 +83,7 @@
         "jib": {
           "price": null,
           "url": "https://www.jib.co.th/web/product/product_search/0?keyword=i5-14600KF",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "HTTP 403"
         },
         "advice": {
           "price": null,
@@ -117,7 +117,7 @@
         "jib": {
           "price": null,
           "url": "https://www.jib.co.th/web/product/product_search/0?keyword=TUF%20GAMING%20B850-PLUS",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "HTTP 403"
         },
         "advice": {
           "price": null,
@@ -151,7 +151,7 @@
         "jib": {
           "price": null,
           "url": "https://www.jib.co.th/web/product/product_search/0?keyword=MSI%20PRO%20B650M-A",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "HTTP 403"
         },
         "advice": {
           "price": null,
@@ -185,7 +185,7 @@
         "jib": {
           "price": null,
           "url": "https://www.jib.co.th/web/product/product_search/0?keyword=Trident%20Z5%2032GB%20DDR5%206000",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "HTTP 403"
         },
         "advice": {
           "price": null,
@@ -219,7 +219,7 @@
         "jib": {
           "price": null,
           "url": "https://www.jib.co.th/web/product/product_search/0?keyword=Kingston%20FURY%20Beast%2032GB%20DDR5",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "HTTP 403"
         },
         "advice": {
           "price": null,
@@ -253,7 +253,7 @@
         "jib": {
           "price": null,
           "url": "https://www.jib.co.th/web/product/product_search/0?keyword=RTX%205070%20Ti%2016GB",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "HTTP 403"
         },
         "advice": {
           "price": null,
@@ -287,7 +287,7 @@
         "jib": {
           "price": null,
           "url": "https://www.jib.co.th/web/product/product_search/0?keyword=RTX%205070%2012GB",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "HTTP 403"
         },
         "advice": {
           "price": null,
@@ -321,7 +321,7 @@
         "jib": {
           "price": null,
           "url": "https://www.jib.co.th/web/product/product_search/0?keyword=Samsung%20990%20PRO%202TB",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "HTTP 403"
         },
         "advice": {
           "price": null,
@@ -355,7 +355,7 @@
         "jib": {
           "price": null,
           "url": "https://www.jib.co.th/web/product/product_search/0?keyword=WD%20Black%20SN7100%201TB",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "HTTP 403"
         },
         "advice": {
           "price": null,
@@ -389,7 +389,7 @@
         "jib": {
           "price": null,
           "url": "https://www.jib.co.th/web/product/product_search/0?keyword=Corsair%20RM850e",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "HTTP 403"
         },
         "advice": {
           "price": null,
@@ -423,7 +423,7 @@
         "jib": {
           "price": null,
           "url": "https://www.jib.co.th/web/product/product_search/0?keyword=MSI%20MAG%20A750GL",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "HTTP 403"
         },
         "advice": {
           "price": null,
@@ -457,7 +457,7 @@
         "jib": {
           "price": null,
           "url": "https://www.jib.co.th/web/product/product_search/0?keyword=Lian%20Li%20Lancool%20216",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "HTTP 403"
         },
         "advice": {
           "price": null,
@@ -491,7 +491,7 @@
         "jib": {
           "price": null,
           "url": "https://www.jib.co.th/web/product/product_search/0?keyword=Deepcool%20AK620",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "HTTP 403"
         },
         "advice": {
           "price": null,
@@ -525,7 +525,7 @@
         "jib": {
           "price": null,
           "url": "https://www.jib.co.th/web/product/product_search/0?keyword=LG%2027GS75Q",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "HTTP 403"
         },
         "advice": {
           "price": null,

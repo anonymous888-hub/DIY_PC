@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T05:19:48.580Z",
+  "updated_at": "2026-11-27T20:26:56.380Z",
   "count": 16,
   "data": [
     {
@@ -25,7 +25,7 @@
         "banana": {
           "price": null,
           "url": "https://www.bnn.in.th/th/search?q=Ryzen%207%209800X3D",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.bnn.in.th/th/search?q=Ryzen%207%209800X3D\", waiting until \"networkidle\"\n"
         },
         "ihavecpu": {
           "price": null,
@@ -59,7 +59,7 @@
         "banana": {
           "price": null,
           "url": "https://www.bnn.in.th/th/search?q=Ryzen%205%209600X",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.bnn.in.th/th/search?q=Ryzen%205%209600X\", waiting until \"networkidle\"\n"
         },
         "ihavecpu": {
           "price": null,
@@ -93,7 +93,7 @@
         "banana": {
           "price": null,
           "url": "https://www.bnn.in.th/th/search?q=i5-14600KF",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.bnn.in.th/th/search?q=i5-14600KF\", waiting until \"networkidle\"\n"
         },
         "ihavecpu": {
           "price": null,
@@ -127,7 +127,7 @@
         "banana": {
           "price": null,
           "url": "https://www.bnn.in.th/th/search?q=TUF%20GAMING%20B850-PLUS",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.bnn.in.th/th/search?q=TUF%20GAMING%20B850-PLUS\", waiting until \"networkidle\"\n"
         },
         "ihavecpu": {
           "price": null,
@@ -161,7 +161,7 @@
         "banana": {
           "price": null,
           "url": "https://www.bnn.in.th/th/search?q=MSI%20PRO%20B650M-A",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.bnn.in.th/th/search?q=MSI%20PRO%20B650M-A\", waiting until \"networkidle\"\n"
         },
         "ihavecpu": {
           "price": null,
@@ -195,7 +195,7 @@
         "banana": {
           "price": null,
           "url": "https://www.bnn.in.th/th/search?q=Trident%20Z5%2032GB%20DDR5%206000",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.bnn.in.th/th/search?q=Trident%20Z5%2032GB%20DDR5%206000\", waiting until \"networkidle\"\n"
         },
         "ihavecpu": {
           "price": null,
@@ -229,7 +229,7 @@
         "banana": {
           "price": null,
           "url": "https://www.bnn.in.th/th/search?q=Kingston%20FURY%20Beast%2032GB%20DDR5",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.bnn.in.th/th/search?q=Kingston%20FURY%20Beast%2032GB%20DDR5\", waiting until \"networkidle\"\n"
         },
         "ihavecpu": {
           "price": null,
@@ -263,7 +263,7 @@
         "banana": {
           "price": null,
           "url": "https://www.bnn.in.th/th/search?q=RTX%205070%20Ti%2016GB",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.bnn.in.th/th/search?q=RTX%205070%20Ti%2016GB\", waiting until \"networkidle\"\n"
         },
         "ihavecpu": {
           "price": null,
@@ -297,7 +297,7 @@
         "banana": {
           "price": null,
           "url": "https://www.bnn.in.th/th/search?q=RTX%205070%2012GB",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.bnn.in.th/th/search?q=RTX%205070%2012GB\", waiting until \"networkidle\"\n"
         },
         "ihavecpu": {
           "price": null,
@@ -331,7 +331,7 @@
         "banana": {
           "price": null,
           "url": "https://www.bnn.in.th/th/search?q=Samsung%20990%20PRO%202TB",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.bnn.in.th/th/search?q=Samsung%20990%20PRO%202TB\", waiting until \"networkidle\"\n"
         },
         "ihavecpu": {
           "price": null,
@@ -365,7 +365,7 @@
         "banana": {
           "price": null,
           "url": "https://www.bnn.in.th/th/search?q=WD%20Black%20SN7100%201TB",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.bnn.in.th/th/search?q=WD%20Black%20SN7100%201TB\", waiting until \"networkidle\"\n"
         },
         "ihavecpu": {
           "price": null,
@@ -399,7 +399,7 @@
         "banana": {
           "price": null,
           "url": "https://www.bnn.in.th/th/search?q=Corsair%20RM850e",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.bnn.in.th/th/search?q=Corsair%20RM850e\", waiting until \"networkidle\"\n"
         },
         "ihavecpu": {
           "price": null,
@@ -433,7 +433,7 @@
         "banana": {
           "price": null,
           "url": "https://www.bnn.in.th/th/search?q=MSI%20MAG%20A750GL",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.bnn.in.th/th/search?q=MSI%20MAG%20A750GL\", waiting until \"networkidle\"\n"
         },
         "ihavecpu": {
           "price": null,
@@ -467,7 +467,7 @@
         "banana": {
           "price": null,
           "url": "https://www.bnn.in.th/th/search?q=Lian%20Li%20Lancool%20216",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.bnn.in.th/th/search?q=Lian%20Li%20Lancool%20216\", waiting until \"networkidle\"\n"
         },
         "ihavecpu": {
           "price": null,
@@ -501,7 +501,7 @@
         "banana": {
           "price": null,
           "url": "https://www.bnn.in.th/th/search?q=Deepcool%20AK620",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.bnn.in.th/th/search?q=Deepcool%20AK620\", waiting until \"networkidle\"\n"
         },
         "ihavecpu": {
           "price": null,
@@ -535,7 +535,7 @@
         "banana": {
           "price": null,
           "url": "https://www.bnn.in.th/th/search?q=LG%2027GS75Q",
-          "note": "ไม่พบรุ่นที่ตรง (สแกน 0)"
+          "note": "page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.bnn.in.th/th/search?q=LG%2027GS75Q\", waiting until \"networkidle\"\n"
         },
         "ihavecpu": {
           "price": null,
